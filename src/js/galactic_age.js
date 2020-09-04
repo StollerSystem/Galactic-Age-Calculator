@@ -19,4 +19,8 @@ export default class GalacticAge {
     return parseInt((this.userAge*365)/(365*11.86 ))
   }
 
+  yearsLeft() {
+    
+  }
+
 }
