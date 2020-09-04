@@ -33,6 +33,9 @@ describe('Galactic Age', () => {
     test('6 should return how many years over life exp. if older', () => {
       galacticAge = new GalacticAge(100);
       expect(galacticAge.yearsLeft("mercury",71)).toEqual(120)
+      expect(galacticAge.yearsLeft("venus",71)).toEqual(46)
+      expect(galacticAge.yearsLeft("mars",71)).toEqual(15)
+      expect(galacticAge.yearsLeft("jupiter",71)).toEqual(2.45)
     });
 
 
