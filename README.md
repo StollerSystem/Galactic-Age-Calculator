@@ -26,13 +26,15 @@ This application will take the age from the user and then they can choose a plan
   * Input: 50
   * Expect: 26
 
-* [] 4 Determine their age in Jupiter years (A Jupiter year is 11.86 Earth years.)
+* [X] 4 Determine their age in Jupiter years (A Jupiter year is 11.86 Earth years.)
   * Input: 50
   * Expect: 4
 
 * [] 5 Determine how many years left the user has left to live on that planet based on average life expectancy.
-  * Input: 50 (expectancy 80 on earth - on Jupiter 6.7...ouch!)
-  * Expect: 2.7 days to live! 
+  * Input: 50 (overall average expectancy is 71 on earth - on Jupiter 6.0...ouch!)
+  * Expect: 2.0 days to live! 
+
+* [] 6 If the user has already surpassed the life expectancy, return how many years they have lived past...good job!
 
 
 ## Setup/Installation Requirements
