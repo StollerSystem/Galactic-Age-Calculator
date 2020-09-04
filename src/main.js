@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import GalacticAge from './js/galactic_age.js';
 
-
 let galacticAge = new GalacticAge(0);
+
 $("#galactic-age-form").submit(function(event) {
   event.preventDefault();  
   if (!($("#ageInput").val() > 0)) {
@@ -13,9 +13,18 @@ $("#galactic-age-form").submit(function(event) {
   } else {
     galacticAge.userAge = parseInt($("#ageInput").val());
     displayAge($("#planet").val());
-  }
-  $("#subBtn").hide();
-  $("#tryAgain").show();
+    $("#subBtn").hide();
+    $("#tryAgain").show();
+  } 
+  
+});
+
+$("#tryAgain").click(function(){
+  $("#galactic-age-form")[0].reset();
+  $("#subBtn").show();
+  $("#tryAgain").hide();
+  $("#output").text("")
+  galacticAge.userAge = 0
 });
 
 function displayAge (planet) {
