@@ -14,7 +14,7 @@
         <label for="ageInput">Enter your age: </label>
         <input id="ageInput" type="number">
       </div>
-      <div>
+      <div id="planetSelect">
         <label for="planet">Choose a planet: </label>
         <select class="form-control" id="planet">        
           <option value="mercury">Mercury</option>
@@ -23,11 +23,13 @@
           <option value="jupiter">Jupiter</option>
         </select>
       </div>      
-      <button type="submit" class="mainBtn">Calculate!</button>
+      <button id="subBtn" type="submit" class="mainBtn">Calculate!</button>
     </form>
+    <button id="tryAgain" class="mainBtn">Try Again!</button>
+    <button id="yearsLeft">Years Left</button>
     <div>
-      <ul id="output">  
-      </ul>  
+      <div id="output">  
+      </div>  
     </div> 
   </div>  
 </body>

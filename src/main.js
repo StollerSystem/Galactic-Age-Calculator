@@ -14,10 +14,12 @@ $("#galactic-age-form").submit(function(event) {
     galacticAge.userAge = parseInt($("#ageInput").val());
     displayAge($("#planet").val());
   }
-
+  $("#subBtn").hide();
+  $("#tryAgain").show();
 });
 
 function displayAge (planet) {
+
   $("#output").append(`<p> Your age on ${planet} would be: <span class="planetAge">${galacticAge[planet]().toString()}</span></p>`);
 }
 

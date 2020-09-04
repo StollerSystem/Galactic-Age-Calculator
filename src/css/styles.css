@@ -9,6 +9,7 @@ body {
   text-align: center;
   border: solid #d62828;
   color: #f77f00;
+  /* text-shadow: 2px 2px #d62828; */
   background-color:  #003049;
   margin-top: 100px;
   padding: 10px;
@@ -17,7 +18,7 @@ body {
 
 input {
   background-color: #003049;
-  color: #d62828;
+  color: #f77f00;
 }
 
 #planet {
@@ -31,6 +32,10 @@ label {
   font-size: xx-large;
 }
 
+#planetSelect {
+  display: inline;
+}
+
 .mainBtn {
   margin: auto;
   margin-top: 10px;
@@ -42,4 +47,8 @@ label {
 
 .planetAge {
   color: #fcbf49;
+}
+
+#tryAgain, #yearsLeft {
+  display: none;
 }
