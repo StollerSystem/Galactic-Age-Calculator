@@ -1,14 +1,45 @@
 body {
   background-image: url(https://www.nasa.gov/sites/default/files/halloween_sun_2014_2k.jpg);
+  font-family: ;
 }
 
 
 .container {
   margin: auto;
   text-align: center;
-  border: solid rgb(226, 91, 1);
-  color: rgb(226, 91, 1);
-  background-color: black;
+  border: solid #d62828;
+  color: #f77f00;
+  background-color:  #003049;
   margin-top: 100px;
+  padding: 10px;
   /* height: 60%; */
+}
+
+input {
+  background-color: #003049;
+  color: #d62828;
+}
+
+#planet {
+  margin: auto;
+  width: 20%;
+  background-color:  #003049;
+  color: #f77f00;
+}
+
+label {
+  font-size: xx-large;
+}
+
+.mainBtn {
+  margin: auto;
+  margin-top: 10px;
+}
+
+#output p {
+  font-size: xx-large;
+}
+
+.planetAge {
+  color: #fcbf49;
 }

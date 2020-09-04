@@ -18,7 +18,7 @@ $("#galactic-age-form").submit(function(event) {
 });
 
 function displayAge (planet) {
-  $("#output").append(`<li> Your age on ${planet}: ${galacticAge[planet]().toString()}</li>`);
+  $("#output").append(`<p> Your age on ${planet} would be: <span class="planetAge">${galacticAge[planet]().toString()}</span></p>`);
 }
 
 

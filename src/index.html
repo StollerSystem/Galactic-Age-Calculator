@@ -7,18 +7,23 @@
 </head>
 <body>
   <div class="container">
-    <h1>Galactic Age Calculator!</h1>
+    <h1>GALACTIC AGE CALCULATOR</h1>
+    <p>See what your age would be on a different planet!</p>
     <form id="galactic-age-form">
-      <label for="ageInput">Enter your age!</label>
-      <input id="ageInput" type="number">
-      <select class="form-control" id="planet">
-        <option value="mercury">Mercury</option>
-        <option value="venus">Venus</option>
-        <option value="mars">Mars</option>
-        <option value="jupiter">Jupiter</option>
-      </select>
-
-      <button type="submit">Calculate!</button>
+      <div>
+        <label for="ageInput">Enter your age: </label>
+        <input id="ageInput" type="number">
+      </div>
+      <div>
+        <label for="planet">Choose a planet: </label>
+        <select class="form-control" id="planet">        
+          <option value="mercury">Mercury</option>
+          <option value="venus">Venus</option>
+          <option value="mars">Mars</option>
+          <option value="jupiter">Jupiter</option>
+        </select>
+      </div>      
+      <button type="submit" class="mainBtn">Calculate!</button>
     </form>
     <div>
       <ul id="output">  
@@ -27,3 +32,5 @@
   </div>  
 </body>
 </html>
+
+<!-- <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Mars_transparent.png"> -->
