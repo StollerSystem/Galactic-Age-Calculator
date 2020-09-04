@@ -34,7 +34,7 @@ This application will take the age from the user and then they can choose a plan
   * Input: 50 (overall average expectancy is 71 on earth - on Jupiter 6...ouch!)
   * Expect: 2 years to live! 
 
-* [] 6 If the user has already surpassed the life expectancy, return how many years they have lived past...good job!
+* [X] 6 If the user has already surpassed the life expectancy, return how many years they have lived past...good job!
 
 
 ## Setup/Installation Requirements
