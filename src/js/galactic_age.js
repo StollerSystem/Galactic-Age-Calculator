@@ -19,8 +19,17 @@ export default class GalacticAge {
     return parseInt((this.userAge*365)/(365*11.86 ))
   }
 
-  yearsLeft() {
-    
+  yearsLeft(planet,ageExpectancy) {
+    switch (planet) {
+      case ("mercury"):
+        return parseInt((ageExpectancy*365)/(365*.24)-(this.userAge*365)/(365*.24))        
+      case ("venus"):
+        return parseInt((ageExpectancy*365)/(365*.62)-(this.userAge*365)/(365*.62))        
+      case ("mars"):
+        return parseInt((ageExpectancy*365)/(365*1.88)-(this.userAge*365)/(365*1.88))        
+      case ("jupiter"):
+        return parseFloat(((ageExpectancy*365)/(365*11.86)-(this.userAge*365)/(365*11.86)).toFixed(2))    
+    }
   }
 
 }
