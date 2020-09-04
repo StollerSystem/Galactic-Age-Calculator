@@ -1,5 +1,10 @@
 export default class GalacticAge {
-  constructor(){
-    
+  constructor(userAge){
+    this.userAge = userAge
   }
+
+  mercury() {
+
+  }
+
 }
