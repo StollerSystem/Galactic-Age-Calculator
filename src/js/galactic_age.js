@@ -3,10 +3,8 @@ export default class GalacticAge {
     this.userAge = userAge
   }
 
-  mercury() {
-    let ageInDays = this.userAge*365
-    let mercuryYear = 365*.24
-    return parseInt(ageInDays/mercuryYear)
+  mercury() {    
+    return parseInt((this.userAge*365)/(365*.24))
   }
 
 }
