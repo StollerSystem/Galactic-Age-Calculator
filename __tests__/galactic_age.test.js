@@ -6,15 +6,15 @@ describe('Galactic Age', () => {
       galacticAge = new GalacticAge(50);
     });  
 
-  test('should return users age in Mercury years', () => {
+  test('1 should return users age in Mercury years', () => {
       expect(galacticAge.mercury()).toEqual(208)
   });
 
-  test('should return users age in Venus years', () => {
+  test('2 should return users age in Venus years', () => {
       expect(galacticAge.venus()).toEqual(80)
   });
 
-  test('should return users age in Mars years', () => {
+  test('3 should return users age in Mars years', () => {
     expect(galacticAge.mars()).toEqual(26)
 });
 

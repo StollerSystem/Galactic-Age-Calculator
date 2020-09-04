@@ -14,23 +14,23 @@ This application will take the age from the user and then they can choose a plan
 
 ## Specs
 
-* [] Determine their age in Mercury years (A Mercury year is .24 Earth years.)
+* [X] 1 Determine their age in Mercury years (A Mercury year is .24 Earth years.)
   * Input: 50
   * Expect: 208
 
-* [] Determine their age in Venus years (A Venus year is .62 Earth years.)
+* [X] 2 Determine their age in Venus years (A Venus year is .62 Earth years.)
   * Input: 50
   * Expect: 80
 
-* [] Determine their age in Mars years (A Mars year is 1.88 Earth years.)
+* [X] 3 Determine their age in Mars years (A Mars year is 1.88 Earth years.)
   * Input: 50
   * Expect: 26
 
-* [] Determine their age in Jupiter years (A Jupiter year is 11.86 Earth years.)
+* [] 4 Determine their age in Jupiter years (A Jupiter year is 11.86 Earth years.)
   * Input: 50
   * Expect: 4
 
-* [] Determine how many years left the user has left to live on that planet based on average life expectancy.
+* [] 5 Determine how many years left the user has left to live on that planet based on average life expectancy.
   * Input: 50 (expectancy 80 on earth - on Jupiter 6.7...ouch!)
   * Expect: 2.7 days to live! 
 
