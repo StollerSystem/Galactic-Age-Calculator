@@ -1,0 +1,14 @@
+body {
+  background-image: url(https://www.nasa.gov/sites/default/files/halloween_sun_2014_2k.jpg);
+}
+
+
+.container {
+  margin: auto;
+  text-align: center;
+  border: solid rgb(226, 91, 1);
+  color: rgb(226, 91, 1);
+  background-color: black;
+  margin-top: 100px;
+  /* height: 60%; */
+}
