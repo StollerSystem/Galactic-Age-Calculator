@@ -108,3 +108,19 @@ label {
 /* #bottomBox {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/27/Mars_transparent.png");
 } */
+
+.mercury {
+  background-image: url("https://i0.wp.com/freepngimages.com/wp-content/uploads/2016/05/planet-mercury-transparent-background.png?fit=680%2C680");
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+
+.mars {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/27/Mars_transparent.png");
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
