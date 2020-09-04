@@ -40,9 +40,9 @@ function attachListener() {
     let planetCap = planet.charAt(0).toUpperCase() + planet.slice(1);    
     $(".smallP").remove();
     if (galacticAge.userAge > ageExpectancy) {
-      $("#output").append(` - You have lived about ${galacticAge.yearsLeft(planet,ageExpectancy)} years OVER the average on <strong>${planetCap}.</strong> Wow! -`);      
+      $("#output").append(`You have lived about ${galacticAge.yearsLeft(planet,ageExpectancy)} years OVER the average life expectancy on <strong>${planetCap}.</strong> Wow!`);      
     } else {
-      $("#output").append(` - You have about ${galacticAge.yearsLeft(planet,ageExpectancy)} years left to live on <strong>${planetCap}</strong> -`);
+      $("#output").append(`You have about ${galacticAge.yearsLeft(planet,ageExpectancy)} years left to live on <strong>${planetCap}</strong>`);
     }
   });
 }

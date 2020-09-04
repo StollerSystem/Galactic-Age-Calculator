@@ -19,6 +19,10 @@ export default class GalacticAge {
     return parseInt((this.userAge*365)/(365*11.86 ));
   }
 
+  saturn() {
+    return parseFloat((this.userAge*365)/(365*29.4 )).toFixed(2);
+  }
+
   yearsLeft(planet,ageExpectancy) {
     let yearsLeft; 
     switch (planet) {
@@ -33,6 +37,9 @@ export default class GalacticAge {
       break;     
     case ("jupiter"):
       yearsLeft = parseFloat(((ageExpectancy*365)/(365*11.86)-(this.userAge*365)/(365*11.86)).toFixed(2));    
+      break;
+    case ("saturn"):
+      yearsLeft = parseFloat(((ageExpectancy*365)/(365*29.4)-(this.userAge*365)/(365*29.4)).toFixed(2));    
       break;
     }    
     if (this.userAge > ageExpectancy) {

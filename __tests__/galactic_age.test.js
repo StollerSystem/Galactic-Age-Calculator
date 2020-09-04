@@ -38,6 +38,9 @@ describe('Galactic Age', () => {
       expect(galacticAge.yearsLeft("jupiter",71)).toEqual(2.45)
     });
 
+    test('7 should return users age in Saturn years', () => {
+      expect(galacticAge.saturn()).toEqual("1.70")
+    });
 
 
 
