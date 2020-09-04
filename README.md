@@ -6,11 +6,11 @@
 
 ### Link to GitHub Pages:
 
-
+https://StollerSystem.github.io/Galactic-Age-Calculator
 
 ## Description
 
-This application will take the age from the user and then they can choose a planet in the solar system. The app will then calculate what their relative age would be on that planet based on it's solar years. 
+This application will take the age from the user and then they can choose a planet from the list. The app will then calculate what their relative age would be on that planet based on it's solar years. Then at the bottom they can click to see how many years they might have left to live on that planet based on the average life expectancy of 71. If their age is over 71 then the app will tell you how many years you have lived over the average. 
 
 ## Specs
 
@@ -39,9 +39,10 @@ This application will take the age from the user and then they can choose a plan
 
 ## Setup/Installation Requirements
 
-* If you would like to download this project you will need Git installed and VSCode or a text editor of your choice
-* Use your terminal to "git clone" from https://github.com/StollerSystem/Galactic-Age-Calculator
-* Navigate to the Mr._Robogers_Neighborhood directory
+* If you would like to download this project you will need Git, Node and VSCode or a text editor of your choice installed.
+* Use your terminal to "git clone" from https://github.com/StollerSystem/Galactic-Age-Calculator 
+* Navigate to the Galactic-Age-Calculator directory
+* Run "npm install" in your console to install dependancies 
 * If using VSCode use command "code ." to open the folder otherwise open the whole folder in your text editor
 * Feel free to mess around with the index.html, styles.css, and scripts.js files! 
 

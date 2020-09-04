@@ -34,14 +34,11 @@ export default class GalacticAge {
     case ("jupiter"):
       yearsLeft = parseFloat(((ageExpectancy*365)/(365*11.86)-(this.userAge*365)/(365*11.86)).toFixed(2));    
       break;
-    }
-    
+    }    
     if (this.userAge > ageExpectancy) {
       return Math.abs(yearsLeft);
     } else {
       return yearsLeft;
     }
-
-
   }
 }

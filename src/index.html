@@ -7,32 +7,30 @@
 </head>
 <body>
   <div class="container">
-    <h1>GALACTIC AGE CALCULATOR</h1>
+    <h1><strong>GALACTIC AGE CALCULATOR</strong></h1>
     <p>See what your age would be on a different planet!</p>
     <form id="galactic-age-form">
-      <div>
-        <label for="ageInput">Enter your age: </label>
-        <input id="ageInput" type="number">
-      </div>
-      <div id="planetSelect">
-        <label for="planet">Choose a planet: </label>
-        <select class="form-control" id="planet">        
-          <option value="mercury">Mercury</option>
-          <option value="venus">Venus</option>
-          <option value="mars">Mars</option>
-          <option value="jupiter">Jupiter</option>
-        </select>
+      <div id="formBorder">
+        <div>
+          <label for="ageInput">Enter your age: </label>
+          <input id="ageInput" type="number">
+        </div>
+        <div id="planetSelect">
+          <label for="planet">Choose a planet: </label>
+          <select class="form-control" id="planet">        
+            <option value="mercury">Mercury</option>
+            <option value="venus">Venus</option>
+            <option value="mars">Mars</option>
+            <option value="jupiter">Jupiter</option>
+          </select>
+        </div>
       </div>      
       <button id="subBtn" type="submit" class="mainBtn">Calculate!</button>
     </form>
-    <button id="tryAgain" class="mainBtn">Try Again!</button>
-    
+    <button id="tryAgain" class="mainBtn">Try Again!</button>    
     <div id="bottomBox">
-      <div id="output">  
-      </div>
-      <!-- <button id="yearsLeft">Years Left</button>   -->
+      <div id="output"></div>      
     </div> 
-
   </div>  
 </body>
 </html>

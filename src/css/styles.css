@@ -1,11 +1,13 @@
 body {
   background-image: url(https://www.nasa.gov/sites/default/files/halloween_sun_2014_2k.jpg);
   background-position: center;
-  background-size: 100% 2000px;
-  width: 100%;
-  /* font-family: ; */
+  background-size: cover;
+  background-attachment:fixed;  
 }
 
+h1 {
+  text-shadow: 2px 2px #fcbf49;
+}
 
 .container {
   width: auto;
@@ -14,15 +16,26 @@ body {
   border: solid #d62828;
   border-radius: 80px;
   color: #f77f00;
-  box-shadow: 2px 2px 15px 15px  #d62828;
-  /* text-shadow: 2px 2px #d62828; */
-  /* background-color:  #003049; */
+  box-shadow: 2px 2px 15px 15px  #d62828;  
   background: rgb(0,0,0);
   background: radial-gradient(circle, rgba(0,0,0,1) 60%, rgba(214,40,40,1) 100%);
   margin-top: 100px;
   padding: 10px;
-  opacity: 85%;
-  /* height: 60%; */
+  opacity: 85%; 
+}
+
+#formBorder {
+  border: solid #fcbf49;
+  border-width: 1px;
+  border-radius: 40px;
+  padding: 15px;
+  margin: auto;
+  width: 61%;
+  min-width: 60%;
+}
+
+.container p {
+  color: #fcbf49;
 }
 
 input {
@@ -50,12 +63,17 @@ label {
 }
 
 .mainBtn {
+  border-radius: 15px;
   font-size: x-large;
   background-color: #d62828;
   color: #eae2b7;
   margin: auto;
   margin-top: 25px;
   margin-bottom: 15px;
+}
+
+.mainBtn:hover {
+  box-shadow: 2px 2px 15px 15px  #fcbf49; 
 }
 
 #output {
