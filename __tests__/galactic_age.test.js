@@ -30,6 +30,11 @@ describe('Galactic Age', () => {
       expect(galacticAge.yearsLeft("jupiter",71)).toEqual(1.77)
     });
 
+    test('6 should return how many years over life exp. if older', () => {
+      galacticAge = new GalacticAge(100);
+      expect(galacticAge.yearsLeft("mercury",71)).toEqual(87)
+    });
+
 
 
 
