@@ -28,6 +28,7 @@ describe('Galactic Age', () => {
       expect(galacticAge.yearsLeft("venus",71)).toEqual(33)
       expect(galacticAge.yearsLeft("mars",71)).toEqual(11)
       expect(galacticAge.yearsLeft("jupiter",71)).toEqual(1.77)
+      expect(galacticAge.yearsLeft("saturn",71)).toEqual(0.71)
     });
 
     test('6 should return how many years over life exp. if older', () => {
@@ -36,6 +37,7 @@ describe('Galactic Age', () => {
       expect(galacticAge.yearsLeft("venus",71)).toEqual(46)
       expect(galacticAge.yearsLeft("mars",71)).toEqual(15)
       expect(galacticAge.yearsLeft("jupiter",71)).toEqual(2.45)
+      expect(galacticAge.yearsLeft("saturn",71)).toEqual(0.99)
     });
 
     test('7 should return users age in Saturn years', () => {

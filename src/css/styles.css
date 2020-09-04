@@ -13,7 +13,7 @@ h1 {
   width: auto;
   margin: auto;
   text-align: center;
-  border: solid #d62828;
+  border: solid #fcbf49;
   border-radius: 80px;
   color: #f77f00;
   box-shadow: 2px 2px 15px 15px  #d62828;  
@@ -31,7 +31,7 @@ h1 {
   padding: 15px;
   margin: auto;
   width: 61%;
-  min-width: 60%;
+  min-width: 60%;   
 }
 
 .container p {
@@ -105,4 +105,6 @@ label {
   text-shadow: 1px 1px #d62828;
 }
 
-
+/* #bottomBox {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/27/Mars_transparent.png");
+} */
