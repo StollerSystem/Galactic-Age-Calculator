@@ -20,16 +20,16 @@ $("#galactic-age-form").submit(function(event) {
 });
 
 $("#tryAgain").click(function(){
-  $("#galactic-age-form")[0].reset();
+  //$("#galactic-age-form")[0].reset();
   $("#subBtn").show();
   $("#tryAgain").hide();
-  $("#output").text("")
-  galacticAge.userAge = 0
+  $("#output").text("");
+  galacticAge.userAge = 0;
 });
 
 function displayAge (planet) {
-
-  $("#output").append(`<p> Your age on ${planet} would be: <span class="planetAge">${galacticAge[planet]().toString()}</span></p>`);
+  let planetCap = planet.charAt(0).toUpperCase() + planet.slice(1);
+  $("#output").append(`<p> Your age on ${planetCap} would be: <span class="planetAge">${galacticAge[planet]().toString()}</span></p>`);
 }
 
 

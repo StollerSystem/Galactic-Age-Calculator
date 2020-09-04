@@ -10,7 +10,7 @@ body {
   text-align: center;
   border: solid #d62828;
   color: #f77f00;
-  box-shadow: 2px 2px 10px 10px  #d62828;
+  box-shadow: 2px 2px 15px 15px  #d62828;
   /* text-shadow: 2px 2px #d62828; */
   background-color:  #003049;
   margin-top: 100px;
@@ -57,7 +57,9 @@ label {
 }
 
 .planetAge {
+  font-size: xx-large;
   color: #fcbf49;
+  text-shadow: 2px 2px #d62828;
 }
 
 #tryAgain, #yearsLeft {
