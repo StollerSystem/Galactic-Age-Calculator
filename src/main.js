@@ -32,12 +32,17 @@ $("#tryAgain").click(function(){
 
 function displayAge (planet) {
   let planetCap = planet.charAt(0).toUpperCase() + planet.slice(1);
-  $("#output").append(`<p> Your age on <strong>${planetCap}</strong> would be:<br> <span class="planetAge">${galacticAge[planet]().toString()}</span></p><br><p class="smallP">(Click <span id="clickP">here</span> to see how many years you have left to live on ${planetCap})<p>`);
+  $("#output").append(`<p> Your age on <strong>${planetCap}</strong> would be:<br> <span class="planetAge">${galacticAge[planet]().toString()}</span></p><p class="smallP">(Click <span id="clickP">here</span> to see how many years you have left to live on ${planetCap})<p>`);
 }
 
 function attachListener() {
   $("#clickP").click(function(){
+    let planet = $("#planet").val()
+    let planetCap = planet.charAt(0).toUpperCase() + planet.slice(1);
     console.log("HEY!")
+    $(".smallP").remove();
+    $("#output").append(` - You have about ${galacticAge.yearsLeft(planet,71)} years left to live on <strong>${planetCap}</strong> -`)
+
   })
 }
 

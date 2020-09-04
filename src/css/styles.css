@@ -7,11 +7,11 @@ body {
 
 
 .container {
-  width: 50%;
+  width: auto;
   margin: auto;
   text-align: center;
   border: solid #d62828;
-  border-radius: 40px;
+  border-radius: 80px;
   color: #f77f00;
   box-shadow: 2px 2px 15px 15px  #d62828;
   /* text-shadow: 2px 2px #d62828; */
@@ -29,13 +29,13 @@ input {
   background-color: #eae2b7;
   color: #d62828;
   margin: auto;
-  width: 10%;
+  width: auto;
 }
 
 #planet {
   font-size: x-large;
   margin: auto;
-  width: 20%;
+  width: auto;
   background-color:  #eae2b7;
   color: #d62828;
 }
@@ -62,9 +62,11 @@ label {
 }
 
 .planetAge {
-  font-size: 100px;
+  margin: auto;
+  font-size: 120px;
   color: #fcbf49;
   text-shadow: 2px 2px #d62828;
+  margin-bottom: 0px;
 }
 
 #tryAgain, #yearsLeft {
@@ -81,7 +83,7 @@ label {
 }
 
 #clickP:hover {
-  text-shadow: 4px 4px #d62828;
+  text-shadow: 1px 1px #d62828;
 }
 
 
