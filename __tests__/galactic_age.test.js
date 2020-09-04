@@ -23,7 +23,10 @@ describe('Galactic Age', () => {
       expect(galacticAge.jupiter()).toEqual(4)
     });
 
-    test('5 should return how many years user has left to live', () => {
+  test('5 should return how many years user has left to live', () => {
+      expect(galacticAge.yearsLeft("mercury",71)).toEqual(87)
+      expect(galacticAge.yearsLeft("venus",71)).toEqual(33)
+      expect(galacticAge.yearsLeft("mars",71)).toEqual(11)
       expect(galacticAge.yearsLeft("jupiter",71)).toEqual(1.77)
     });
 

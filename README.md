@@ -30,7 +30,7 @@ This application will take the age from the user and then they can choose a plan
   * Input: 50
   * Expect: 4
 
-* [] 5 Determine how many years left the user has left to live on that planet based on average life expectancy.
+* [X] 5 Determine how many years left the user has left to live on that planet based on average life expectancy.
   * Input: 50 (overall average expectancy is 71 on earth - on Jupiter 6...ouch!)
   * Expect: 2 years to live! 
 

@@ -31,5 +31,4 @@ export default class GalacticAge {
         return parseFloat(((ageExpectancy*365)/(365*11.86)-(this.userAge*365)/(365*11.86)).toFixed(2))    
     }
   }
-
 }
