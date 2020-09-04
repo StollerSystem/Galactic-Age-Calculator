@@ -8,7 +8,7 @@ describe('Galactic Age', () => {
   
 
   test('should return users age in Mercury years', () => {
-      expect(galacticAge.mercury()).toEqual(207)
+      expect(galacticAge.mercury()).toEqual(208)
   });
 
 

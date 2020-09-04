@@ -4,7 +4,9 @@ export default class GalacticAge {
   }
 
   mercury() {
-
+    let ageInDays = this.userAge*365
+    let mercuryYear = 365*.24
+    return parseInt(ageInDays/mercuryYear)
   }
 
 }
