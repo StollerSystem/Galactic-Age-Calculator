@@ -32,7 +32,7 @@ describe('Galactic Age', () => {
 
     test('6 should return how many years over life exp. if older', () => {
       galacticAge = new GalacticAge(100);
-      expect(galacticAge.yearsLeft("mercury",71)).toEqual(87)
+      expect(galacticAge.yearsLeft("mercury",71)).toEqual(120)
     });
 
 
