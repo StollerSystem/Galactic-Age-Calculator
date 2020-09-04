@@ -22,6 +22,7 @@ $("#galactic-age-form").submit(function(event) {
 
 $("#tryAgain").click(function(){
   //$("#galactic-age-form")[0].reset();
+  $("#bottomBox").removeClass("mercury venus mars jupiter saturn")
   $("#subBtn").show();
   $("#tryAgain").hide();
   $("#output").text("");
@@ -53,8 +54,17 @@ function planetImage(planet) {
     case ("mercury"):
     $("#bottomBox").addClass("mercury");
     break;
+    case ("venus"):
+    $("#bottomBox").addClass("venus");
+    break;
     case ("mars"):
     $("#bottomBox").addClass("mars");
+    break;
+    case ("jupiter"):
+    $("#bottomBox").addClass("jupiter");
+    break;
+    case ("saturn"):
+    $("#bottomBox").addClass("saturn");
     break;
   }   
 }

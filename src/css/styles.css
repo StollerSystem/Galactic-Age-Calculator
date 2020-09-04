@@ -117,10 +117,36 @@ label {
   background-size: 300px 300px;
 }
 
+.venus {
+  background-image: url("../../img/Daco_4463863.png");
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+  
+}
+
+
 .mars {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/27/Mars_transparent.png");
   margin: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px 300px;
+}
+
+.jupiter {
+  background-image: url("../../img/Daco_32171.png");
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+
+.saturn {
+  background-image: url("../../img/Daco_1388786.png");
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 600px 300px;
 }
