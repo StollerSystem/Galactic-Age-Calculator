@@ -1,6 +1,8 @@
 body {
   background-image: url(https://www.nasa.gov/sites/default/files/halloween_sun_2014_2k.jpg);
-  font-family: ;
+  background-position: center;
+  background-size: 100% 2000px;
+  /* font-family: ; */
 }
 
 
@@ -9,10 +11,13 @@ body {
   margin: auto;
   text-align: center;
   border: solid #d62828;
+  border-radius: 40px;
   color: #f77f00;
   box-shadow: 2px 2px 15px 15px  #d62828;
   /* text-shadow: 2px 2px #d62828; */
-  background-color:  #003049;
+  /* background-color:  #003049; */
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 60%, rgba(214,40,40,1) 100%);
   margin-top: 100px;
   padding: 10px;
   opacity: 85%;
@@ -24,7 +29,7 @@ input {
   background-color: #eae2b7;
   color: #d62828;
   margin: auto;
-  width: 20%;
+  width: 10%;
 }
 
 #planet {
@@ -52,12 +57,12 @@ label {
   margin-bottom: 15px;
 }
 
-#output p {
+#output {
   font-size: xx-large;
 }
 
 .planetAge {
-  font-size: xx-large;
+  font-size: 100px;
   color: #fcbf49;
   text-shadow: 2px 2px #d62828;
 }
@@ -65,3 +70,18 @@ label {
 #tryAgain, #yearsLeft {
   display: none;
 }
+
+.smallP {
+  font-size: medium;
+}
+
+#clickP {
+  font-weight: 600;
+  color: #fcbf49;
+}
+
+#clickP:hover {
+  text-shadow: 4px 4px #d62828;
+}
+
+
