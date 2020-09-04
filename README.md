@@ -38,7 +38,7 @@ This application will take the age from the user and then they can choose a plan
 ## Setup/Installation Requirements
 
 * If you would like to download this project you will need Git installed and VSCode or a text editor of your choice
-* Use your terminal to "git clone" from https://github.com/StollerSystem/pizza_shop
+* Use your terminal to "git clone" from https://github.com/StollerSystem/Galactic-Age-Calculator
 * Navigate to the Mr._Robogers_Neighborhood directory
 * If using VSCode use command "code ." to open the folder otherwise open the whole folder in your text editor
 * Feel free to mess around with the index.html, styles.css, and scripts.js files! 
