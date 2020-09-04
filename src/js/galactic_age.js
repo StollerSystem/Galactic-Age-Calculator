@@ -8,7 +8,7 @@ export default class GalacticAge {
   }
 
   venus() {
-    
+    return parseInt((this.userAge*365)/(365*.62))
   }
 
 }
