@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galactic Age Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <h1><strong>GALACTIC AGE CALCULATOR</strong></h1>
+    <p>See what your age would be on a different planet!</p>
+    <form id="galactic-age-form">
+      <div id="formBorder">
+        <div>
+          <label for="ageInput">Enter your age: </label>
+          <input id="ageInput" type="number">
+        </div>
+        <div id="planetSelect">
+          <label for="planet">Choose a planet: </label>
+          <select class="form-control" id="planet">        
+            <option value="mercury">Mercury</option>
+            <option value="venus">Venus</option>
+            <option value="mars">Mars</option>
+            <option value="jupiter">Jupiter</option>
+            <option value="saturn">Saturn</option>
+          </select>
+        </div>
+      </div>      
+      <button id="subBtn" type="submit" class="mainBtn">Calculate!</button>
+    </form>
+    <button id="tryAgain" class="mainBtn">Try Again!</button>    
+    <div id="bottomBox">
+      <div id="output"></div>      
+    </div> 
+  </div>  
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
+
