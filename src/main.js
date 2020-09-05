@@ -20,8 +20,7 @@ $("#galactic-age-form").submit(function(event) {
   
 });
 
-$("#tryAgain").click(function(){
-  //$("#galactic-age-form")[0].reset();
+$("#tryAgain").click(function(){  
   $("#bottomBox").removeClass("mercury venus mars jupiter saturn")
   $("#subBtn").show();
   $("#tryAgain").hide();

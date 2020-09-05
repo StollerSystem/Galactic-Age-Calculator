@@ -43,7 +43,7 @@ input {
   background-color: #eae2b7;
   color: #d62828;
   margin: auto;
-  width: auto;
+  width: 50%;
 }
 
 #planet {
@@ -83,8 +83,8 @@ label {
 .planetAge {
   margin: auto;
   font-size: 120px;
-  color: #fcbf49;
-  text-shadow: 2px 2px #d62828;
+  color: #ffed4f;
+  text-shadow: 5px 5px #d62828;
   margin-bottom: 0px;
 }
 
@@ -105,16 +105,12 @@ label {
   text-shadow: 1px 1px #d62828;
 }
 
-/* #bottomBox {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/27/Mars_transparent.png");
-} */
-
 .mercury {
   background-image: url("https://i0.wp.com/freepngimages.com/wp-content/uploads/2016/05/planet-mercury-transparent-background.png?fit=680%2C680");
   margin: auto;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 300px 300px;
+  background-size: 250px 250px;
 }
 
 .venus {
@@ -122,17 +118,15 @@ label {
   margin: auto;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 300px 300px;
-  
+  background-size: 250px 250px;  
 }
-
 
 .mars {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/27/Mars_transparent.png");
   margin: auto;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 300px 300px;
+  background-size: 250px 250px;
 }
 
 .jupiter {
@@ -140,7 +134,7 @@ label {
   margin: auto;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 300px 300px;
+  background-size: 250px 250px;
 }
 
 .saturn {
@@ -148,5 +142,5 @@ label {
   margin: auto;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 600px 300px;
+  background-size: 500px 250px;  
 }
