@@ -35,6 +35,8 @@ This application will take the age from the user and then they can choose a plan
   * Expect: 2 years to live! 
 
 * [X] 6 If the user has already surpassed the life expectancy, return how many years they have lived past...good job!
+  * Input: 100 (on Jupiter)
+  * Expect 2.45 years over the average
 
 
 ## Setup/Installation Requirements
@@ -42,9 +44,10 @@ This application will take the age from the user and then they can choose a plan
 * If you would like to download this project you will need Git, Node and VSCode or a text editor of your choice installed.
 * Use your terminal to "git clone" from https://github.com/StollerSystem/Galactic-Age-Calculator 
 * Navigate to the Galactic-Age-Calculator directory
-* Run "npm install" in your console to install dependancies 
+* Run "npm install" in your console to install dependencies 
 * If using VSCode use command "code ." to open the folder otherwise open the whole folder in your text editor
 * Feel free to mess around with the index.html, styles.css, and scripts.js files! 
+* In the console execute the command "npm run build"
 
 ## Known Bugs
 
